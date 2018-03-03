@@ -1,0 +1,264 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.container-quotes {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.container-wrapper--orange {
+    background-color: #ff8c00;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+
+/*Navbar*/
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: black;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar-right .navbar-text {
+    color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #ff8c00;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 25px;
+    width: 90px;
+    background-color: #ff8c00;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background: #e27c00;
+    border: 0;
+    color: white;
+}
+
+
+
+
+/*Callout*/
+
+.container-callout {
+    height: 120vh;
+
+    background: url("https://cdn.shopify.com/s/files/1/1468/6240/files/Norlan-Whisky-Glass-11242017.jpg?v=1511482150") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.jumbotron .lead {
+    color: white;
+    margin: 0px 0px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: white;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #a0a0a0;
+    border-color: #000000;
+}
+
+.divider--black {
+    width: 40px;
+    height: 3px;
+    border: 0;
+    background-color: grey;
+}
+
+.divider--white {
+    width: 40px;
+    height: 3px;
+    border: 0;
+    background-color: white;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn-calltoaction {
+    font-weight: bold;
+    color: white;
+    background-color: #ff8c00;
+    border: 0;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.btn-calltoaction:hover {
+    background: #e27c00;
+    border: 0;
+    color: white;
+}
+
+.btn-signup {
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border-color: white;
+    border-radius: 25px;
+    width: 90px;
+}
+
+.btn-signup:hover {
+    background: #e27c00;
+    border: 0;
+    color: white;
+}
+
+
+
+
+/*Alert*/
+
+.container-alert .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100;
+}
+
+.side-wide-alert {
+    color: #502a10;
+    background-color: #ef8545;
+    border-radius: 0;
+    padding: 7px 0px 5px 7px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
+
+
+/* Page content */
+
+.page-header {
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 0;
+
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
+
+/* Quotes */
+
+.quote {
+    border-left: 0;
+}
+
+
+
+/* Features */
+
+.feature {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.feature .glyphicon {
+    display: block;
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.feature .btn {
+    margin-top: 10px;
+    background-color: white;
+    border-color: white;
+    border-radius: 25px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #e27c00;
+}
